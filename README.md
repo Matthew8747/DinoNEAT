@@ -1,6 +1,6 @@
 # Chrome Dino AI using NEAT
 
-This project implements an AI to play the Chrome offline Dinosaur game using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm. The AI trains itself to improve its performance over generations, learning to jump over obstacles efficiently.
+This project implements agents to play the Chrome offline Dinosaur game using the NEAT (NeuroEvolution of Augmenting Topologies) algorithm. The AI trains itself to improve performance over each generation, learning to jump over obstacles efficiently. The agents that get further have a better likelihood of passing on their genes. 
 
 ## Features
 - Uses the **NEAT algorithm** to evolve a neural network for controlling the dinosaur.
@@ -10,7 +10,7 @@ This project implements an AI to play the Chrome offline Dinosaur game using the
 
 ## Installation
 ### Prerequisites
-Ensure you have Python installed (version 3.x recommended). Install dependencies using:
+Ensure you have Python installed. Install dependencies using:
 ```bash
 pip install pygame neat-python
 ```
@@ -36,7 +36,7 @@ python dino_ai.py
 The NEAT configuration settings are stored in `config.txt`. You can adjust parameters like population size, mutation rates, and network structure to optimize learning. Parameters used in the demo are the same in current config
 
 ## Demo
-![Dino AI Demo](Assets\dinoDemo.gif)
+![Dino AI Demo](https://raw.githubusercontent.com/Matthew8747/DinoNEAT/main/Assets/dinoDemo.gif)
 
 ## Future Improvements
 - Implement reinforcement learning for more advanced decision-making.
